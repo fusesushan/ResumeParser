@@ -13,7 +13,7 @@ import re
 import spacy
 from spacy.matcher import Matcher
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm") # python -m spacy download en_core_web_sm
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.expand_frame_repr', False)
